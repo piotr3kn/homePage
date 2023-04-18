@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage Piotr Nakoneczny</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+    <link href="section.css" rel="stylesheet">
+    <link href="article.css" rel="stylesheet">
+    <link href="container.css" rel="stylesheet">
+    <link href="navigation.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <h1 class="header__title">Od zera do programisty</h1>
+    </header>
+    <nav>
+        <ul class="navigation__list">
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#about-me">O mnie</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#interests">Zainteresowania</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#science">FrontEndDeveloper od podstaw</a>
+            </li>
+            <li class="navigation__listItem">
+                <a class="navigation__link" href="#contact">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section">
+            <button class="section__button js-button">Włącz <span class="themeName js-themeName"> ciemny</span>
+                motyw</button>
+            <button class="section__buttonDeletePhoto js-buttonDeletePhoto">Usuń zdjęcie</button>
+            <img class="article__paragraph--image js-image" height="200" src="https://i.postimg.cc/tJXkRt6D/ziemia.jpg"
+                alt="Ziemia">
+        </section>
+        <article class="article" id="about-me">
+            <h2 class="article__header">O mnie</h2>
+            <p class="article__paragraph">Cześć mam na imię Piotrek i mam 32 lata, chciałbym nauczyć sie programować i
+                zostać
+                FrontEndDeveloper.<br>Aktualnie od 9 lat pracuje jako <strong>Technolog/Konstruktor</strong> zajmuję sie
+                projektowaniem(modelowaniem 3D).
+                <br>Używam oprogramowania takiego jak:<b>SolidWorks, NX, Catia, AutoCad.</b>
+                <br> Od dłuższego czasu zbierałem się aby zacząć uczyć sie programowania, dopiero <strong>3
+                    moduł</strong> a już bardzo mi się to podoba i wiem że była to dobra decyzja, mam nadzieję że idę
+                dobrą drogą.
+
+                <img class="article__paragraph--image" height="200" src="https://i.postimg.cc/YSzHcDpq/ways-770x433.jpg"
+                    alt="Dobra droga">
+            </p>
+        </article>
+        <article class="article" id="interests">
+            <h2 class="article__header">Zainteresowania</h2>
+            <p class="article__paragraph">W wolnej chwili "chociaż z tym ciężko" bo mam 4-letnią łobuziarę, interesuję
+                sie
+                samochodami, największe zainteresowanie wzbudza u mnie BMW serii 5, ponieważ takie posiadam i w każdej
+                wolnej chwili lubię sobie pogrzebać mechanicznie jak i w software - trochę się na tym znam &#128526;
+                <br>Poniżej w tabeli pokażę Ci, które modele miałem a na samym dole będzie aktualny.
+            </p>
+            <div class="container">
+                <table class="table__container">
+                    <caption class="table__title">BMW modele serii 5</caption>
+                    <tr class="table__row">
+                        <th class="table__cell--header" scope="col">Modele serii 5</th>
+                        <th class="table__cell--header" scope="col">Rok produkcji</th>
+                        <th class="table__cell--header" scope="col">Silnik</th>
+                        <th class="table__cell--header" scope="col">Miejsce produkcji</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header" scope="row">BMW E34</th>
+                        <td class="table__cell">1996</td>
+                        <td class="table__cell">(M20B20)520i </td>
+                        <td class="table__cell">Monachium</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header" scope="row">BMW E39</th>
+                        <td class="table__cell">2003</td>
+                        <td class="table__cell">(M52)528i</td>
+                        <td class="table__cell" rowspan="3">Dingolfing</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header" scope="row">BMW E60</th>
+                        <td class="table__cell">2005</td>
+                        <td class="table__cell">(M57N)530d</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell--header" scope="row">BMW F11</th>
+                        <td class="table__cell">2012</td>
+                        <td class="table__cell">(N47N)520d</td>
+
+                    </tr>
+                </table>
+                <p class="article__paragraph"> Jeśli chciałabyś/chciałbyś zobaczyć wiecej informacji na temat modeli
+                    serii 5
+                    zapraszam Cię do <a class="article__linkStyle"
+                        href="https://pl.wikipedia.org/wiki/BMW_serii_5">LINKA.</a>
+                </p>
+            </div>
+        </article>
+        <article class="article" id="science">
+            <h2 class="article__header">FrontEndDeveloper od podstaw</h2>
+            <p class="article__paragraph">O kursie dowiedziałem się przypadkiem, nie wiem czy to zbieg okoliczności czy
+                po prostu
+                tak musiało być, ale gdy wyswietliło mi sie ogłoszenie Krzyśka i obejrzałem live, pomyslałem
+                <strong>wchodzę w to</strong> i zapisałem się na kurs.
+            </p>
+        </article>
+    </main>
+    <footer class="footer" id="contact">
+        <h2 class="footer__header">Kontakt</h2>
+        <br>
+        <p class="footer__contact">piotrnakoneczny@gmail.com<br>tel : +48 883 242 823
+        </p>
+        <p>© Copyright 2023 by Piotr Nakoneczny - wszystkie prawa zastrzeżone.
+        </p>
+    </footer>
+</body>
+
+</html>

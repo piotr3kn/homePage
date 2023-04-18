@@ -1,0 +1,67 @@
+/*style.css*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    padding: 20px 20px;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.header__title {
+    padding: 5px 5px 5px 5px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(236, 111, 27);
+    text-shadow: 1px 1px 20px rgb(241, 118, 47);
+    background-color: beige;
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: -15px;
+    margin-top: -20px;
+}
+
+.lightTheme {
+    background-color: rgb(255, 255, 255);
+}
+
+.darkTheme {
+    background-color: rgb(22, 31, 49);
+    color: #a54e4e;
+}
+
+.footer {
+    margin-top: 5%;
+}
+
+.footer__header {
+    background-color: rgb(114, 114, 230);
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+
+.footer__contact {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+ 
+
+  
+
+ 

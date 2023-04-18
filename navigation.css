@@ -1,0 +1,28 @@
+/*navigation.css*/
+
+.navigation__link {
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 3px;
+    border-radius: 100px 100px;
+    background-color: rgb(152, 182, 103);
+    box-shadow: 1px 1px 20px rgb(173, 241, 47);
+}
+
+.navigation__link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navigation__list {
+    line-height: 45px;
+    background-color: rgb(114, 114, 230);
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 40px;
+}
+
+.navigation__listItem {
+    display: inline-block;
+}

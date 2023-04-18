@@ -1,0 +1,53 @@
+/*article.css*/
+
+.article__paragraph--image {
+    border-radius: 100px 100px 100px 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    max-width: 50%;
+    height: auto;
+}
+
+.article {
+    margin-top: 5%;
+}
+
+.article__header {
+    background-color: rgb(114, 114, 230);
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+
+.article__paragraph {
+    font-size: 19px;
+    line-height: 2;
+}
+
+.article__contact {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.article__linkStyle {
+    color: crimson;
+    text-decoration: none;
+}
+
+.article__linkStyle:visited {
+    color: darkred;
+}
+
+.article__linkStyle:focus {
+    outline: 2px solid currentColor;
+}
+
+.article__linkStyle:hover {
+    color: red;
+    border-bottom: 1 px solid;
+    outline: none;
+}
